@@ -1,0 +1,128 @@
+Task 1
+Patrick Theodore Co
+
+Determine 10 test caseswhich reflects the priorities of this website
+
+Test case scenario 1: User logs in
+User clicks login
+User fills out Username and Password credentials
+Website prompts login details are incorrect
+
+
+Test case scenario 2: User click Start Shopping
+User clicks Start Shopping
+User clicks buy button on Stuffed Frog
+User clicks buy button on Smiley Face
+User clicks buy button on Smiley Bear
+User clicks cart
+User clicks checkout
+User fills delivery details
+User clicks Submit button 
+User prompted order has been accpted
+
+
+Test case scenario 3: User completely empties cart
+User clicks Start Shopping
+User clicks buy button on Teddy Bear
+User clicks buy button on Handmade Doll two times
+User clicks buy button on Fluffy Bunny
+User clicks buy button on Funny Cow three times
+User clicks Cart
+User clicks Empty Cart
+User prompted confirmation
+User clicks Yes button
+User is showed Cart is empty on Website
+
+
+Test case scenario 4: User completes Contact form
+User clicks Contact button
+User fills in credential requested
+User clicks Submit button
+User is prompted a thank you message for the feedback
+
+
+Test case scenario 5: User clicks Shop button on top bar
+User clicks Shop button on top bar
+User clicks buy button on Teddy Bear
+User clicks buy button on Stuffed Frog
+User clicks buy button on Handmade Doll
+User clicks buy button on Fluffy Bunny
+User clicks buy button on Smiley Bear
+User clicks buy button on Funny Cow
+User clicks buy button on Valentine Bear
+User clicks buy button on Smiley Face
+User clicks Checkout button
+User enters Delivery Details
+User clicks Submit
+User prompted order has been accepted
+
+
+Test case scenario 6: User clicks cart delete an item and return to shop to add different item
+User clicks Start Shopping
+User clicks buy button on Teddy Bear three times
+User clicks buy button on Smiley Bear two times
+User clicks buy button on Smiley Face four times
+User clicks Cart
+User clicks red button on Smiley Bear item to delete from cart
+User is prompted confirmation of deletion
+User clicks Yes button
+User clicks Shop button
+User clicks Buy button on Funny Cow three times
+User clicks Cart
+User clicks Check Out button
+User fills Delivery Details
+User clicks Submit
+User prompted order has been accepted
+
+
+Test case scenario 7: User views empty cart from Shop
+User clicks Start Shopping button
+User clicks Cart button
+User prompted with empty cart
+
+
+Test case scenario 8: User fills Contact feedback with items in court
+User clicks Shop button
+User clicks buy button on Fluffy Bunny
+User clicks buy button on Smiley Bear
+User clicks buy button on Funny Cow
+User clicks contact
+User fills credentials
+User clicks Submit button
+User is prompted feedback was received
+User clicks Back button
+User clicks Cart with items still in Cart
+
+
+Test case scenario 9: User fills feedback form and checks out items
+User clicks Contact button on top bar
+User fills credentials requested
+User clicks Submit button
+User prompted feedback received
+User clicks Back button
+User clicks Shop button on top bar
+User clicks Buy button on Smiley Face item
+User clicks Cart button on top bar
+User clicks Check Out button 
+User fills Delivery Details credentials
+User clicks Submit button
+User prompted order was accepted
+
+
+Test case scenario 10: User change quantity of items in cart
+User clicks Shop button on top bar
+User clicks buy button on Smiley Bear
+User clicks buy button on Stuffed Frog
+User clicks buy button on Valentine Bear
+User clicks buy button on Fluffy Bunny
+User clicks Cart on top bar
+User adds two more quantity on Valentines Bear
+User showed changes on Subtotal for three Valentine Bear 
+User adds one more quantity on Smiley Bear
+User showed changes on Subtotal for two Smiley Bear 
+User clicks Check Out button
+User fills Delivery Details 
+User clicks Submit button
+User prompted order has been accpeted
+
+

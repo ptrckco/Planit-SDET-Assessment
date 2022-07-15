@@ -9,6 +9,6 @@ public class Fibonacci {
     public static void main(String args[])
     {
         int n = 17;
-        System.out.println(fib(n));
+        System.out.println("The fibonacci number " + n + " in the fibonacci sequence is " + fib(n));
     }
 }

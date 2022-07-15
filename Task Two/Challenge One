@@ -5,10 +5,43 @@ public class Fibonacci {
             return n;
         return fib(n - 1) + fib(n - 2);
     }
+    
+    static int nearestFibonacci(int num)
+	{
+	     
+	    if (num == 0)
+	    {
+	        System.out.print(0);
+	        return num;
+	    }
+	 
+	    int first = 0, second = 1;
+	 
+	    // Store the third term
+	    int third = first + second;
+	 
+	    while (third <= num)
+	    {
+	         
+	        first = second;
+	 
+	        second = third;
+	 
+	        third = first + second;
+	    }
+	 
+	    int val = (Math.abs(third - num) >=
+	               Math.abs(second - num)) ?
+	               second : third;
+	 
+	    // returns value   
+	     return val;
+	}
   
     public static void main(String args[])
     {
         int n = 17;
         System.out.println("The fibonacci number " + n + " in the fibonacci sequence is " + fib(n));
+        System.out.printf("The given numaber " + n + " has a the closest index in the fibonacci sqeuance to " + nearestFibonacci(n));
     }
 }

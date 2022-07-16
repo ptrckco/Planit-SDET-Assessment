@@ -1,0 +1,49 @@
+public class ChallengeTwo {
+	
+
+	static void getStrings(String str)
+    {
+		int highest = 0;
+		char found=' ';
+		
+		//first character to start and then the second....
+		for (int i=0; i<str.length(); i++) {  
+			int count=0;
+			//from the second to compare the previous
+			for (int j=i+1; j<str.length(); j++) { 
+			if(Character.toUpperCase(str.charAt(i)) == Character.toUpperCase(str.charAt(j))) {
+				count++;
+				//make sure the highest count
+				if (highest < count) { 
+					highest= count;
+					
+				}
+				//found the highest occurrences
+				found = str.charAt(i);			
+				
+			}
+			
+			}
+		}
+		//look for the first character from the highest occurrences
+		for (int k = 0; k<str.length(); k++) {  
+			if(Character.toUpperCase(str.charAt(k)) == Character.toUpperCase(found)){
+				found = str.charAt(k);
+				break;
+			}
+		}
+		System.out.println(found);
+
+    }
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			ChallengeTwo c = new ChallengeTwo();
+		
+				String s = "Character";
+				System.out.println("The highest number of character that occured in " + s + " is:");
+				c.getStrings(s);
+
+	}
+
+}

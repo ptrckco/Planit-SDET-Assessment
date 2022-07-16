@@ -13,13 +13,12 @@ public class ChallengeTwo {
 			for (int j=i+1; j<str.length(); j++) { 
 			if(Character.toUpperCase(str.charAt(i)) == Character.toUpperCase(str.charAt(j))) {
 				count++;
-				//make sure the highest count
 				if (highest < count) { 
-					highest= count;
+					highest = count;
+					//found the highest occurrences
+					found = str.charAt(i);
 					
-				}
-				//found the highest occurrences
-				found = str.charAt(i);			
+				}		
 				
 			}
 			
